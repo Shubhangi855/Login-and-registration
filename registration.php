@@ -2,7 +2,7 @@
 session_start();
 header('location:loginandregister.php');
 $connection=mysqli_connect('localhost','root','1234');
-//$connection=mysqli_connect('localhost','root','write your password here')
+
 
 mysqli_select_db($connection,'loginandregistrationform');
 
